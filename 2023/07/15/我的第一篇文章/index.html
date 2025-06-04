@@ -167,7 +167,7 @@
 <p> 安装 Node.js</p>
 </li>
 <li><p>创建GitHub仓库<br> 仓库名格式：用户名.github.io 如 yourname.github.io<br> 勾选 “Initialize with a README”<br> 选择main分支</p>
-<h2 id="注意可以先生成SSH密钥"><a href="#注意可以先生成SSH密钥" class="headerlink" title="注意可以先生成SSH密钥"></a>注意可以先生成SSH密钥</h2><p> 1.生成SSH密钥（如果已有可跳过）：ssh-keygen -t ed25519 -C “<a href="mailto:&#x78;&#x78;&#120;&#120;&#x78;&#64;&#113;&#x71;&#46;&#x63;&#x6f;&#109;">xxxxx@qq.com</a>“<br> 2.将公钥添加到GitHub：复制公钥内容 默认路径 ~&#x2F;.ssh&#x2F;id_ed25519.pub<br> 登录GitHub → Settings → SSH and GPG keys → New SSH key，粘贴公钥<br> 3.测试SSH连接：ssh -T <a href="mailto:&#x67;&#105;&#116;&#64;&#x67;&#x69;&#x74;&#x68;&#117;&#x62;&#46;&#99;&#111;&#x6d;">git@github.com</a> 看到 You’ve successfully authenticated 即成功<br> 4.重新部署： hexo clean &amp;&amp; hexo generate &amp;&amp; hexo deploy</p>
+<h2 id="注意可以先生成SSH密钥"><a href="#注意可以先生成SSH密钥" class="headerlink" title="注意可以先生成SSH密钥"></a>注意可以先生成SSH密钥</h2><p> 1.生成SSH密钥（如果已有可跳过）：ssh-keygen -t ed25519 -C “<a href="mailto:&#x78;&#x78;&#x78;&#120;&#x78;&#64;&#113;&#x71;&#46;&#x63;&#111;&#x6d;">xxxxx@qq.com</a>“<br> 2.将公钥添加到GitHub：复制公钥内容 默认路径 ~&#x2F;.ssh&#x2F;id_ed25519.pub<br> 登录GitHub → Settings → SSH and GPG keys → New SSH key，粘贴公钥<br> 3.测试SSH连接：ssh -T <a href="mailto:&#103;&#105;&#116;&#x40;&#x67;&#x69;&#x74;&#104;&#x75;&#x62;&#46;&#x63;&#x6f;&#x6d;">git@github.com</a> 看到 You’ve successfully authenticated 即成功<br> 4.重新部署： hexo clean &amp;&amp; hexo generate &amp;&amp; hexo deploy</p>
 </li>
 <li><p>本地安装博客框架</p>
 <h2 id="安装Hexo命令行工具"><a href="#安装Hexo命令行工具" class="headerlink" title="安装Hexo命令行工具"></a>安装Hexo命令行工具</h2><p> npm install -g hexo-cli</p>
@@ -180,7 +180,7 @@
 </li>
 <li><p>本地预览与调试<br> hexo generate  # 生成静态页面<br> hexo server    # 启动本地服务器（访问 <a href="http://localhost:4000）">http://localhost:4000）</a></p>
 </li>
-<li><p>部署到GitHub<br> 安装部署插件：npm install hexo-deployer-git –save<br> 在 _config.yml 中添加：<br> deploy:<br> type: git<br> repo: <a href="mailto:&#103;&#105;&#x74;&#x40;&#x67;&#x69;&#116;&#104;&#x75;&#98;&#46;&#x63;&#x6f;&#x6d;">git@github.com</a>:yourname&#x2F;yourname.github.io.git  # 替换为你的仓库URL<br> branch: main<br> 执行部署：hexo deploy</p>
+<li><p>部署到GitHub<br> 安装部署插件：npm install hexo-deployer-git –save<br> 在 _config.yml 中添加：<br> deploy:<br> type: git<br> repo: <a href="mailto:&#103;&#105;&#x74;&#x40;&#103;&#x69;&#x74;&#104;&#117;&#x62;&#x2e;&#x63;&#111;&#109;">git@github.com</a>:yourname&#x2F;yourname.github.io.git  # 替换为你的仓库URL<br> branch: main<br> 执行部署：hexo deploy</p>
 </li>
 <li><p>访问你的博客<br> 打开 https:&#x2F;&#x2F;你的用户名.github.io</p>
 <p> 如显示默认页面，即部署成功！</p>
